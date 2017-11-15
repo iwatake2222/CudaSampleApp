@@ -7,13 +7,13 @@ Sample project to use CUDA code with normal C/C++ console application as DLL lib
  - Cuda 9.0 (cuda_9.0.176_win10)
 
 ## Project structure
-### ComplexCalcLib project
+### CudaLib project
  - contains cuda source code(.cu) and provides DLL library
  - creates dll file (when Configuration Type is Dynamic Library (.dll))
  - creates exe file (when Configuration Type is Application (.exe))
 	- this is for unit test
 
-### CudaSampleApp project
+### MyApp project
  - is the main application
  - this project uses DLL
  - normal C/C++ Console application (no need specific configurations for CUDA)

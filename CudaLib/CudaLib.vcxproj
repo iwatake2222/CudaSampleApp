@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{80127CF3-D9DC-4092-A2F1-F52A2D2A4AAB}</ProjectGuid>
-    <RootNamespace>ComplexCalcLib</RootNamespace>
+    <ProjectGuid>{A30EF036-ADB1-43D5-AD58-EF0F839AB64F}</ProjectGuid>
+    <RootNamespace>CudaLib</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -86,13 +86,13 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="complexCalc.cu" />
+    <CudaCompile Include="kernel.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="complexCalc.h" />
+    <ClInclude Include="CudaLib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
