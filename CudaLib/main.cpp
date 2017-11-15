@@ -26,6 +26,7 @@ bool unitTest(int n)
 	for (i = 0; i < n; i++) {
 		if (out1[i] != out2[i]) {
 			printf("error at index = %d\n", i);
+			break;
 		}
 	}
 
