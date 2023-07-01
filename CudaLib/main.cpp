@@ -7,7 +7,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-#include "CudaLib.h"
+#include "CudaLib.cuh"
 
 using namespace CudaLib;
 
