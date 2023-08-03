@@ -17,7 +17,6 @@ namespace CudaLib
 #ifdef DLL_EXPORT
 DLLEXPORT void complexCalcOriginal(int *in, int *out, int n);
 DLLEXPORT void complexCalcFast(int *hIn, int *hOut, int n);
-DLLEXPORT void GetTestClass(long long *out);
 
 #else
 DLLEXPORT void complexCalcOriginal(int *in, int*out, int n);
