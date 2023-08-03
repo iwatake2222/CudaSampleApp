@@ -3,14 +3,13 @@
 
 #include <stdio.h>
 
-#include "CudaLib.h"
+#include "CudaLib.cuh"
 
 namespace CudaLib
 {
 #if 0
 }	// indent guard
 #endif
-
 
 void complexCalcOriginal(int *in, int *out, int n)
 {
